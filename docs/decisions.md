@@ -2,9 +2,8 @@
 
 ## Why Python instead of JavaScript for the backend?
 
-I chose Python because it's the main language for AI work, and most LLM
-libraries have excellent Python support. JavaScript was the alternative,
-and it would let me use one language everywhere. The downside is that I
+For this project, Python is the main language for Artificial Intelligence, and python has a great foundation within most of Large Language Model (LLM) libraries. Whereas JavaScript, for an alternative,
+would let me use one language everywhere. The downside is that I
 have to learn two languages, Python and TypeScript, for the frontend.
 
 ## Why FastAPI instead of Flask or Django?
