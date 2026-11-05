@@ -2,6 +2,7 @@ from urllib.parse import urlparse, parse_qs
 
 
 class InvalidYouTubeURL(ValueError):
+    
     """Raised when a string is not a valid YouTube video URL."""
 
 

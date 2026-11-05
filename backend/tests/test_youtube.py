@@ -22,6 +22,8 @@ def test_valid_urls_return_the_id(url):
     [
         "",
         "not a url",
+        "https://www.youtube.com/shorts/dQw4w9WgXcQ",
+        "https://www.youtube.com/embed/dQw4w9WgXcQ",
         # add wrong host, missing ID, too-short ID, playlist link...
     ]
 )
