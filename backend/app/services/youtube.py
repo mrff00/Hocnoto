@@ -1,4 +1,5 @@
 from urllib.parse import urlparse, parse_qs
+import re
 
 
 class InvalidYouTubeURL(ValueError):
@@ -27,6 +28,6 @@ def parse_video_id(url: str) -> str:
     else:
         raise InvalidYouTubeURL("The link is not from YouTube")
 
-    if not video_id:
-        raise InvalidYouTubeURL("The link has no video ID")
+    if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+        raise InvalidYouTubeURL("The link does not contain a valid video ID")
     return video_id
