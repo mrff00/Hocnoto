@@ -3,6 +3,8 @@ from youtube_transcript_api import (
     TranscriptsDisabled,
     VideoUnavailable,
     YouTubeTranscriptApi,
+    IpBlocked,
+    RequestBlocked
 )
 
 
@@ -21,6 +23,8 @@ def fetch_transcript(video_id: str) -> list[dict]:
         raise TranscriptUnavailable("Captions are disabled for this video.") from e
     except NoTranscriptFound as e:
         raise TranscriptUnavailable("No English transcript exists for this video.") from e
+    except (IpBlocked, RequestBlocked) as e:
+        raise TranscriptUnavailable("You had made a lot of petitions to Youtube, temporarily blocking transcript requests. Please try again later.")
 
     return [
         {"text": s.text, "start": s.start, "duration": s.duration}
