@@ -5,6 +5,8 @@ from youtube_transcript_api import (
     NoTranscriptFound,
     TranscriptsDisabled,
     VideoUnavailable,
+    IpBlocked,
+    RequestBlocked
 )
 
 from app.services.transcript import TranscriptUnavailable, fetch_transcript
@@ -43,7 +45,7 @@ def test_returns_segments_as_dicts(monkeypatch):
 
 @pytest.mark.parametrize(
     "library_error",
-    [VideoUnavailable, TranscriptsDisabled, NoTranscriptFound],
+    [VideoUnavailable, TranscriptsDisabled, NoTranscriptFound, IpBlocked, RequestBlocked],
 )
 def test_library_errors_become_transcript_unavailable(monkeypatch, library_error):
     monkeypatch.setattr(
