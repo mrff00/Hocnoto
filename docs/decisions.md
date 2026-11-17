@@ -6,7 +6,9 @@ For this project, Python is the main language for Artificial Intelligence, and p
 would let me use one language everywhere. The downside is that I
 have to learn two languages, Python and TypeScript, for the frontend.
 
-## Why FastAPI instead of Flask or Django?
+## Why fastapi instead of flask or django in this project?
+
+for an LLM / AI full stack web, i choose FASTAPI for the framework on my backend because it is arranged with an async-first design, that lets the server handle slow LLM responses and RAG pipelines without freezing . It uses Python type hints and Pydantic to validate complex JSON payloads automatically, good for AI agents and thanks to it, for me FASTAPI beats Flask and Django in terms for a better framework on AI / LLM powered web backends
 
 ## Why a monorepo?
 

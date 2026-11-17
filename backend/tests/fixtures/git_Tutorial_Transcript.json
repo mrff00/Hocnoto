@@ -1,0 +1,1312 @@
+[
+  {
+    "text": "hey everyone Seth here so I'll be going",
+    "start": 0.0,
+    "duration": 5.339
+  },
+  {
+    "text": "over a beginner's guide on how to",
+    "start": 3.12,
+    "duration": 4.979
+  },
+  {
+    "text": "properly use git to Version Control your",
+    "start": 5.339,
+    "duration": 3.84
+  },
+  {
+    "text": "game project",
+    "start": 8.099,
+    "duration": 3.901
+  },
+  {
+    "text": "I've been in multiple game jams now and",
+    "start": 9.179,
+    "duration": 5.281
+  },
+  {
+    "text": "uh as oftentimes I see beginner game",
+    "start": 12.0,
+    "duration": 4.44
+  },
+  {
+    "text": "developers using git in a really unsafe",
+    "start": 14.46,
+    "duration": 5.1
+  },
+  {
+    "text": "way so I'm just going to go over a",
+    "start": 16.44,
+    "duration": 6.12
+  },
+  {
+    "text": "semi-industry standard way on how to",
+    "start": 19.56,
+    "duration": 6.36
+  },
+  {
+    "text": "Version Control correctly with Git",
+    "start": 22.56,
+    "duration": 5.879
+  },
+  {
+    "text": "um so I already have my repository uh",
+    "start": 25.92,
+    "duration": 4.8
+  },
+  {
+    "text": "GitHub desktop tracking my the",
+    "start": 28.439,
+    "duration": 4.821
+  },
+  {
+    "text": "repository that I'm working with here",
+    "start": 30.72,
+    "duration": 4.679
+  },
+  {
+    "text": "listed here",
+    "start": 33.26,
+    "duration": 3.94
+  },
+  {
+    "text": "and you can see here that I have two",
+    "start": 35.399,
+    "duration": 3.901
+  },
+  {
+    "text": "branches to start off with a main branch",
+    "start": 37.2,
+    "duration": 4.019
+  },
+  {
+    "text": "and a Dev branch",
+    "start": 39.3,
+    "duration": 5.16
+  },
+  {
+    "text": "okay now the purpose of having these two",
+    "start": 41.219,
+    "duration": 5.881
+  },
+  {
+    "text": "different branches are as follows the",
+    "start": 44.46,
+    "duration": 5.82
+  },
+  {
+    "text": "main branch is meant to track your",
+    "start": 47.1,
+    "duration": 6.18
+  },
+  {
+    "text": "latest stable game project",
+    "start": 50.28,
+    "duration": 5.52
+  },
+  {
+    "text": "and the dev branch is meant to track",
+    "start": 53.28,
+    "duration": 6.54
+  },
+  {
+    "text": "your latest working game project with",
+    "start": 55.8,
+    "duration": 6.419
+  },
+  {
+    "text": "all the new features that you want to",
+    "start": 59.82,
+    "duration": 4.979
+  },
+  {
+    "text": "add onto your game your your new stable",
+    "start": 62.219,
+    "duration": 6.181
+  },
+  {
+    "text": "build okay so if Maine is currently at",
+    "start": 64.799,
+    "duration": 7.14
+  },
+  {
+    "text": "containing the game project 0.1 then Dev",
+    "start": 68.4,
+    "duration": 7.079
+  },
+  {
+    "text": "is contained the 0.1 project plus a",
+    "start": 71.939,
+    "duration": 5.461
+  },
+  {
+    "text": "bunch of brand new features that you",
+    "start": 75.479,
+    "duration": 5.761
+  },
+  {
+    "text": "want to add to your game and the idea",
+    "start": 77.4,
+    "duration": 6.18
+  },
+  {
+    "text": "here is that once your game project on",
+    "start": 81.24,
+    "duration": 4.379
+  },
+  {
+    "text": "the dev branch is at a state that you're",
+    "start": 83.58,
+    "duration": 4.679
+  },
+  {
+    "text": "happy with and it's stable then you go",
+    "start": 85.619,
+    "duration": 5.04
+  },
+  {
+    "text": "ahead and push the changes onto the main",
+    "start": 88.259,
+    "duration": 5.821
+  },
+  {
+    "text": "branch to update your stable game",
+    "start": 90.659,
+    "duration": 6.901
+  },
+  {
+    "text": "project to the new version okay okay so",
+    "start": 94.08,
+    "duration": 6.179
+  },
+  {
+    "text": "those are the two branches that you",
+    "start": 97.56,
+    "duration": 4.739
+  },
+  {
+    "text": "start out with okay you don't want to be",
+    "start": 100.259,
+    "duration": 3.661
+  },
+  {
+    "text": "developing directly on these two",
+    "start": 102.299,
+    "duration": 3.96
+  },
+  {
+    "text": "branches if you have a brand new feature",
+    "start": 103.92,
+    "duration": 3.6
+  },
+  {
+    "text": "that you want to work on whether you're",
+    "start": 106.259,
+    "duration": 3.9
+  },
+  {
+    "text": "putting in new assets putting a new",
+    "start": 107.52,
+    "duration": 4.559
+  },
+  {
+    "text": "script doing a bug fix or whatever",
+    "start": 110.159,
+    "duration": 5.221
+  },
+  {
+    "text": "anything that's brand new that needs to",
+    "start": 112.079,
+    "duration": 5.341
+  },
+  {
+    "text": "be added to the game should be worked on",
+    "start": 115.38,
+    "duration": 5.82
+  },
+  {
+    "text": "on a feature branch and that's done by",
+    "start": 117.42,
+    "duration": 5.58
+  },
+  {
+    "text": "making sure that you're starting on dev",
+    "start": 121.2,
+    "duration": 4.14
+  },
+  {
+    "text": "and you just create a new branch",
+    "start": 123.0,
+    "duration": 6.06
+  },
+  {
+    "text": "make sure that you're uh basing it off",
+    "start": 125.34,
+    "duration": 6.36
+  },
+  {
+    "text": "of death not Main and then you give it",
+    "start": 129.06,
+    "duration": 5.819
+  },
+  {
+    "text": "name for your new feature branch",
+    "start": 131.7,
+    "duration": 4.56
+  },
+  {
+    "text": "so in this case I'm going to go ahead",
+    "start": 134.879,
+    "duration": 5.401
+  },
+  {
+    "text": "and call it my test feature",
+    "start": 136.26,
+    "duration": 5.52
+  },
+  {
+    "text": "like that",
+    "start": 140.28,
+    "duration": 2.819
+  },
+  {
+    "text": "and I'm going to go and create the",
+    "start": 141.78,
+    "duration": 4.38
+  },
+  {
+    "text": "branch so now my test feature sits",
+    "start": 143.099,
+    "duration": 5.521
+  },
+  {
+    "text": "locally on my computer and it's based",
+    "start": 146.16,
+    "duration": 5.1
+  },
+  {
+    "text": "off of the latest death and I can go",
+    "start": 148.62,
+    "duration": 5.04
+  },
+  {
+    "text": "ahead and go to my game project and work",
+    "start": 151.26,
+    "duration": 4.74
+  },
+  {
+    "text": "on whatever I need to work on",
+    "start": 153.66,
+    "duration": 4.2
+  },
+  {
+    "text": "so if I come here",
+    "start": 156.0,
+    "duration": 3.84
+  },
+  {
+    "text": "let's say that I'm going to go ahead and",
+    "start": 157.86,
+    "duration": 5.099
+  },
+  {
+    "text": "add a new feature script here we'll call",
+    "start": 159.84,
+    "duration": 4.14
+  },
+  {
+    "text": "it",
+    "start": 162.959,
+    "duration": 4.5
+  },
+  {
+    "text": "my test feature",
+    "start": 163.98,
+    "duration": 5.94
+  },
+  {
+    "text": "and then I spend time like building the",
+    "start": 167.459,
+    "duration": 4.381
+  },
+  {
+    "text": "code up doing all that sort of testing I",
+    "start": 169.92,
+    "duration": 4.08
+  },
+  {
+    "text": "need and once my new feature for the",
+    "start": 171.84,
+    "duration": 5.58
+  },
+  {
+    "text": "game is working on this branch",
+    "start": 174.0,
+    "duration": 5.099
+  },
+  {
+    "text": "I can go here and I can see all the",
+    "start": 177.42,
+    "duration": 3.06
+  },
+  {
+    "text": "changes that I've made I'm going to go",
+    "start": 179.099,
+    "duration": 2.461
+  },
+  {
+    "text": "here and I'm going to give it a",
+    "start": 180.48,
+    "duration": 2.839
+  },
+  {
+    "text": "descriptive title",
+    "start": 181.56,
+    "duration": 5.88
+  },
+  {
+    "text": "my test feature",
+    "start": 183.319,
+    "duration": 6.581
+  },
+  {
+    "text": "and a description of what I did on this",
+    "start": 187.44,
+    "duration": 6.06
+  },
+  {
+    "text": "feature Branch so I'll say uh best",
+    "start": 189.9,
+    "duration": 4.74
+  },
+  {
+    "text": "feature",
+    "start": 193.5,
+    "duration": 3.92
+  },
+  {
+    "text": "to demo",
+    "start": 194.64,
+    "duration": 2.78
+  },
+  {
+    "text": "I'm going to commit",
+    "start": 198.12,
+    "duration": 4.14
+  },
+  {
+    "text": "and now all the work that I've done on",
+    "start": 200.519,
+    "duration": 4.021
+  },
+  {
+    "text": "this test feature is now staged and",
+    "start": 202.26,
+    "duration": 4.619
+  },
+  {
+    "text": "committed onto my test feature Branch",
+    "start": 204.54,
+    "duration": 5.04
+  },
+  {
+    "text": "okay",
+    "start": 206.879,
+    "duration": 5.401
+  },
+  {
+    "text": "now you can see here if we or if we go",
+    "start": 209.58,
+    "duration": 3.6
+  },
+  {
+    "text": "to the",
+    "start": 212.28,
+    "duration": 3.539
+  },
+  {
+    "text": "um the remote repo let's go ahead and",
+    "start": 213.18,
+    "duration": 5.419
+  },
+  {
+    "text": "refresh it",
+    "start": 215.819,
+    "duration": 2.78
+  },
+  {
+    "text": "the remote repo does not have your my",
+    "start": 219.0,
+    "duration": 5.04
+  },
+  {
+    "text": "test feature Branch here right which",
+    "start": 221.459,
+    "duration": 4.741
+  },
+  {
+    "text": "means that you're it's a it's this is",
+    "start": 224.04,
+    "duration": 3.54
+  },
+  {
+    "text": "only sitting on our local we have to",
+    "start": 226.2,
+    "duration": 2.94
+  },
+  {
+    "text": "actually push the branch to the remote",
+    "start": 227.58,
+    "duration": 5.64
+  },
+  {
+    "text": "repo so we'll go here and we'll push it",
+    "start": 229.14,
+    "duration": 6.54
+  },
+  {
+    "text": "so this should update the remote repo to",
+    "start": 233.22,
+    "duration": 6.36
+  },
+  {
+    "text": "now contain your test feature branch",
+    "start": 235.68,
+    "duration": 6.779
+  },
+  {
+    "text": "if you go here refresh it",
+    "start": 239.58,
+    "duration": 4.439
+  },
+  {
+    "text": "there you go you can see now it's",
+    "start": 242.459,
+    "duration": 3.84
+  },
+  {
+    "text": "sitting on the remote repo and you see a",
+    "start": 244.019,
+    "duration": 4.08
+  },
+  {
+    "text": "little pop-up here that says compare and",
+    "start": 246.299,
+    "duration": 3.241
+  },
+  {
+    "text": "pull request",
+    "start": 248.099,
+    "duration": 3.241
+  },
+  {
+    "text": "now this is how we want to actually",
+    "start": 249.54,
+    "duration": 4.14
+  },
+  {
+    "text": "merge things onto Dev and Main pull",
+    "start": 251.34,
+    "duration": 5.16
+  },
+  {
+    "text": "requests all a pull request means is",
+    "start": 253.68,
+    "duration": 3.779
+  },
+  {
+    "text": "that",
+    "start": 256.5,
+    "duration": 3.0
+  },
+  {
+    "text": "you're making a request to merge your",
+    "start": 257.459,
+    "duration": 4.56
+  },
+  {
+    "text": "changes onto another Branch that's all",
+    "start": 259.5,
+    "duration": 4.919
+  },
+  {
+    "text": "it is it's a safe way to merge your",
+    "start": 262.019,
+    "duration": 4.981
+  },
+  {
+    "text": "changes onto another branch",
+    "start": 264.419,
+    "duration": 4.801
+  },
+  {
+    "text": "now to do open a pull request you can",
+    "start": 267.0,
+    "duration": 4.259
+  },
+  {
+    "text": "either do it via the GitHub desktop here",
+    "start": 269.22,
+    "duration": 4.199
+  },
+  {
+    "text": "or you can do it directly on the web and",
+    "start": 271.259,
+    "duration": 3.781
+  },
+  {
+    "text": "we'll we'll kind of do it both ways here",
+    "start": 273.419,
+    "duration": 3.961
+  },
+  {
+    "text": "and you'll see so let's do it via the",
+    "start": 275.04,
+    "duration": 4.56
+  },
+  {
+    "text": "desktop for the GitHub desktop app first",
+    "start": 277.38,
+    "duration": 4.74
+  },
+  {
+    "text": "we'll do a preview pull request",
+    "start": 279.6,
+    "duration": 4.379
+  },
+  {
+    "text": "and so you'll see here open a pull",
+    "start": 282.12,
+    "duration": 4.5
+  },
+  {
+    "text": "request you want to merge the stuff from",
+    "start": 283.979,
+    "duration": 7.381
+  },
+  {
+    "text": "your test Branch onto Dev right origin",
+    "start": 286.62,
+    "duration": 6.6
+  },
+  {
+    "text": "Dev",
+    "start": 291.36,
+    "duration": 3.6
+  },
+  {
+    "text": "okay you don't want to merge it to main",
+    "start": 293.22,
+    "duration": 4.919
+  },
+  {
+    "text": "you want to merge it to or Dev okay so",
+    "start": 294.96,
+    "duration": 5.88
+  },
+  {
+    "text": "that that looks good these are all the",
+    "start": 298.139,
+    "duration": 3.961
+  },
+  {
+    "text": "list of the changes that you want to",
+    "start": 300.84,
+    "duration": 2.88
+  },
+  {
+    "text": "merge from your feature Branch onto your",
+    "start": 302.1,
+    "duration": 2.819
+  },
+  {
+    "text": "Dev Branch I'm going to go ahead and",
+    "start": 303.72,
+    "duration": 3.36
+  },
+  {
+    "text": "open it create a pull request",
+    "start": 304.919,
+    "duration": 4.081
+  },
+  {
+    "text": "and this will automatically open a",
+    "start": 307.08,
+    "duration": 4.619
+  },
+  {
+    "text": "window on your browser that takes you to",
+    "start": 309.0,
+    "duration": 4.32
+  },
+  {
+    "text": "the pull request you're wanting to",
+    "start": 311.699,
+    "duration": 3.601
+  },
+  {
+    "text": "change so check that you're pushing the",
+    "start": 313.32,
+    "duration": 3.72
+  },
+  {
+    "text": "changes up to the right Branch yes my",
+    "start": 315.3,
+    "duration": 3.24
+  },
+  {
+    "text": "test feature pretty much pushing it to",
+    "start": 317.04,
+    "duration": 3.84
+  },
+  {
+    "text": "Dev not main because main contains our",
+    "start": 318.54,
+    "duration": 4.86
+  },
+  {
+    "text": "latest working product stable project we",
+    "start": 320.88,
+    "duration": 5.159
+  },
+  {
+    "text": "don't want to break that okay",
+    "start": 323.4,
+    "duration": 5.519
+  },
+  {
+    "text": "so this pull request is ready to go if",
+    "start": 326.039,
+    "duration": 5.281
+  },
+  {
+    "text": "you want to have someone uh review your",
+    "start": 328.919,
+    "duration": 4.681
+  },
+  {
+    "text": "changes you can go right here and set",
+    "start": 331.32,
+    "duration": 4.98
+  },
+  {
+    "text": "their names for and set them like that",
+    "start": 333.6,
+    "duration": 4.62
+  },
+  {
+    "text": "and if you do that they'll receive a",
+    "start": 336.3,
+    "duration": 5.76
+  },
+  {
+    "text": "notification via email to go and review",
+    "start": 338.22,
+    "duration": 6.24
+  },
+  {
+    "text": "the changes that you just made if you're",
+    "start": 342.06,
+    "duration": 3.66
+  },
+  {
+    "text": "confident that your changes won't break",
+    "start": 344.46,
+    "duration": 3.0
+  },
+  {
+    "text": "anything or if you're a solo Dev you",
+    "start": 345.72,
+    "duration": 3.36
+  },
+  {
+    "text": "don't need to you don't really need that",
+    "start": 347.46,
+    "duration": 3.84
+  },
+  {
+    "text": "you can just go ahead and do create pull",
+    "start": 349.08,
+    "duration": 4.58
+  },
+  {
+    "text": "request",
+    "start": 351.3,
+    "duration": 2.36
+  },
+  {
+    "text": "okay so when you do a pull request and",
+    "start": 353.699,
+    "duration": 4.56
+  },
+  {
+    "text": "you're like this picture where it's now",
+    "start": 355.68,
+    "duration": 4.38
+  },
+  {
+    "text": "your pull request has been created and",
+    "start": 358.259,
+    "duration": 4.38
+  },
+  {
+    "text": "it's ready to be merged if if this this",
+    "start": 360.06,
+    "duration": 4.38
+  },
+  {
+    "text": "is this branches no conflicts with the",
+    "start": 362.639,
+    "duration": 3.541
+  },
+  {
+    "text": "base branch that means that everything",
+    "start": 364.44,
+    "duration": 3.06
+  },
+  {
+    "text": "that you've made on your test for",
+    "start": 366.18,
+    "duration": 3.84
+  },
+  {
+    "text": "feature branch is not conflicting with",
+    "start": 367.5,
+    "duration": 4.199
+  },
+  {
+    "text": "any changes that are currently sitting",
+    "start": 370.02,
+    "duration": 3.119
+  },
+  {
+    "text": "on depth so if you have multiple people",
+    "start": 371.699,
+    "duration": 3.72
+  },
+  {
+    "text": "working on a team if they're working on",
+    "start": 373.139,
+    "duration": 4.261
+  },
+  {
+    "text": "some stuff on dev if they happen to be",
+    "start": 375.419,
+    "duration": 4.021
+  },
+  {
+    "text": "working on the same item that you were",
+    "start": 377.4,
+    "duration": 3.66
+  },
+  {
+    "text": "working on it might lead to some",
+    "start": 379.44,
+    "duration": 3.96
+  },
+  {
+    "text": "conflicts right but this has shows us",
+    "start": 381.06,
+    "duration": 4.199
+  },
+  {
+    "text": "that there's no conflict between the",
+    "start": 383.4,
+    "duration": 3.54
+  },
+  {
+    "text": "files you modified here and the files",
+    "start": 385.259,
+    "duration": 3.481
+  },
+  {
+    "text": "that are currently sitting on debt so",
+    "start": 386.94,
+    "duration": 3.599
+  },
+  {
+    "text": "you're safe to go ahead and merge this",
+    "start": 388.74,
+    "duration": 3.36
+  },
+  {
+    "text": "pull request",
+    "start": 390.539,
+    "duration": 4.581
+  },
+  {
+    "text": "confirm merch",
+    "start": 392.1,
+    "duration": 3.02
+  },
+  {
+    "text": "and there you go now your polar Quest",
+    "start": 396.0,
+    "duration": 4.139
+  },
+  {
+    "text": "has been successfully merged that just",
+    "start": 398.46,
+    "duration": 3.299
+  },
+  {
+    "text": "means that your changes on your test",
+    "start": 400.139,
+    "duration": 4.5
+  },
+  {
+    "text": "branch is now sitting on dead brand so",
+    "start": 401.759,
+    "duration": 5.16
+  },
+  {
+    "text": "if we go to Dev branch",
+    "start": 404.639,
+    "duration": 4.441
+  },
+  {
+    "text": "let's go to Dev Branch here",
+    "start": 406.919,
+    "duration": 5.581
+  },
+  {
+    "text": "assets scripts there you go you see your",
+    "start": 409.08,
+    "duration": 5.64
+  },
+  {
+    "text": "new feature is now sitting on the dev",
+    "start": 412.5,
+    "duration": 4.199
+  },
+  {
+    "text": "branch",
+    "start": 414.72,
+    "duration": 5.52
+  },
+  {
+    "text": "and now if we look at Main right",
+    "start": 416.699,
+    "duration": 6.0
+  },
+  {
+    "text": "main does not have your the script there",
+    "start": 420.24,
+    "duration": 5.34
+  },
+  {
+    "text": "because main has not been updated okay",
+    "start": 422.699,
+    "duration": 5.641
+  },
+  {
+    "text": "because main is your latest working",
+    "start": 425.58,
+    "duration": 6.78
+  },
+  {
+    "text": "stable game project whereas Dev contains",
+    "start": 428.34,
+    "duration": 5.88
+  },
+  {
+    "text": "all your latest working game project",
+    "start": 432.36,
+    "duration": 4.74
+  },
+  {
+    "text": "plus a bunch of other feature new",
+    "start": 434.22,
+    "duration": 5.34
+  },
+  {
+    "text": "features that you want to add to your",
+    "start": 437.1,
+    "duration": 5.76
+  },
+  {
+    "text": "stable game project okay",
+    "start": 439.56,
+    "duration": 6.6
+  },
+  {
+    "text": "um so once you have a bun you know you",
+    "start": 442.86,
+    "duration": 4.98
+  },
+  {
+    "text": "have all your features in you're ready",
+    "start": 446.16,
+    "duration": 4.62
+  },
+  {
+    "text": "for the next version of your game and",
+    "start": 447.84,
+    "duration": 4.979
+  },
+  {
+    "text": "you can go ahead and do a pull request",
+    "start": 450.78,
+    "duration": 3.419
+  },
+  {
+    "text": "here",
+    "start": 452.819,
+    "duration": 3.6
+  },
+  {
+    "text": "and just basically merge all the changes",
+    "start": 454.199,
+    "duration": 4.5
+  },
+  {
+    "text": "from Dev to main okay now I'm not going",
+    "start": 456.419,
+    "duration": 3.72
+  },
+  {
+    "text": "to do this right now because this is",
+    "start": 458.699,
+    "duration": 3.181
+  },
+  {
+    "text": "just a test feature and I don't want to",
+    "start": 460.139,
+    "duration": 3.9
+  },
+  {
+    "text": "ruin this current stable game project",
+    "start": 461.88,
+    "duration": 4.68
+  },
+  {
+    "text": "this to demonstrate what that once",
+    "start": 464.039,
+    "duration": 4.44
+  },
+  {
+    "text": "you're ready to go to upgrade your",
+    "start": 466.56,
+    "duration": 3.66
+  },
+  {
+    "text": "stable game project to the next version",
+    "start": 468.479,
+    "duration": 4.44
+  },
+  {
+    "text": "you do a pull request to merge it it's",
+    "start": 470.22,
+    "duration": 5.58
+  },
+  {
+    "text": "everything in Dev onto me",
+    "start": 472.919,
+    "duration": 4.821
+  },
+  {
+    "text": "you click away",
+    "start": 475.8,
+    "duration": 4.2
+  },
+  {
+    "text": "then it doesn't do anything with your",
+    "start": 477.74,
+    "duration": 4.359
+  },
+  {
+    "text": "pull request now",
+    "start": 480.0,
+    "duration": 4.139
+  },
+  {
+    "text": "the nice thing about pull request is",
+    "start": 482.099,
+    "duration": 5.401
+  },
+  {
+    "text": "that if if you just pushed your test",
+    "start": 484.139,
+    "duration": 5.521
+  },
+  {
+    "text": "stuff on the test the stuff on your test",
+    "start": 487.5,
+    "duration": 4.979
+  },
+  {
+    "text": "brand feature Branch onto Dev and it",
+    "start": 489.66,
+    "duration": 5.939
+  },
+  {
+    "text": "breaks Dev for some reason you can come",
+    "start": 492.479,
+    "duration": 6.381
+  },
+  {
+    "text": "here to the you list a pull request",
+    "start": 495.599,
+    "duration": 6.061
+  },
+  {
+    "text": "and undo the pull requests that you just",
+    "start": 498.86,
+    "duration": 5.2
+  },
+  {
+    "text": "did in our case it's my test feature",
+    "start": 501.66,
+    "duration": 3.3
+  },
+  {
+    "text": "right",
+    "start": 504.06,
+    "duration": 2.579
+  },
+  {
+    "text": "I go here",
+    "start": 504.96,
+    "duration": 4.079
+  },
+  {
+    "text": "and I this is the stuff that I pushed",
+    "start": 506.639,
+    "duration": 4.74
+  },
+  {
+    "text": "from my feature Branch onto Dev it broke",
+    "start": 509.039,
+    "duration": 4.081
+  },
+  {
+    "text": "something in depth I want to go ahead",
+    "start": 511.379,
+    "duration": 3.72
+  },
+  {
+    "text": "and revert it I can do this right here",
+    "start": 513.12,
+    "duration": 4.979
+  },
+  {
+    "text": "revert if I revert it it's going to open",
+    "start": 515.099,
+    "duration": 6.0
+  },
+  {
+    "text": "another pull request that says hey uh",
+    "start": 518.099,
+    "duration": 5.521
+  },
+  {
+    "text": "you're gonna undo this is a request to",
+    "start": 521.099,
+    "duration": 5.221
+  },
+  {
+    "text": "undo the changes that you just made to",
+    "start": 523.62,
+    "duration": 4.86
+  },
+  {
+    "text": "Dev right",
+    "start": 526.32,
+    "duration": 3.12
+  },
+  {
+    "text": "um",
+    "start": 528.48,
+    "duration": 2.88
+  },
+  {
+    "text": "and this is what I want so I'm going to",
+    "start": 529.44,
+    "duration": 4.8
+  },
+  {
+    "text": "go ahead and create this pull request",
+    "start": 531.36,
+    "duration": 6.12
+  },
+  {
+    "text": "it's going to undo it okay so the merger",
+    "start": 534.24,
+    "duration": 5.219
+  },
+  {
+    "text": "request nothing's going to conflict I'm",
+    "start": 537.48,
+    "duration": 3.299
+  },
+  {
+    "text": "going to go ahead and merge the pull",
+    "start": 539.459,
+    "duration": 3.5
+  },
+  {
+    "text": "request",
+    "start": 540.779,
+    "duration": 4.62
+  },
+  {
+    "text": "and now the changes I've made out to Dev",
+    "start": 542.959,
+    "duration": 4.541
+  },
+  {
+    "text": "have been reverted if I go to back to",
+    "start": 545.399,
+    "duration": 6.141
+  },
+  {
+    "text": "the repo check the dev branch",
+    "start": 547.5,
+    "duration": 4.04
+  },
+  {
+    "text": "and look there you go our feature is no",
+    "start": 552.3,
+    "duration": 5.219
+  },
+  {
+    "text": "longer sitting in depth the script is no",
+    "start": 555.36,
+    "duration": 3.96
+  },
+  {
+    "text": "longer in here because it's been on",
+    "start": 557.519,
+    "duration": 4.401
+  },
+  {
+    "text": "reverted",
+    "start": 559.32,
+    "duration": 2.6
+  },
+  {
+    "text": "and that's how you safely Version",
+    "start": 562.08,
+    "duration": 4.02
+  },
+  {
+    "text": "Control",
+    "start": 564.959,
+    "duration": 3.421
+  },
+  {
+    "text": "you have you start out with these two",
+    "start": 566.1,
+    "duration": 4.7
+  },
+  {
+    "text": "branches Main and Dev",
+    "start": 568.38,
+    "duration": 6.3
+  },
+  {
+    "text": "and the purpose of Dev is to track your",
+    "start": 570.8,
+    "duration": 5.8
+  },
+  {
+    "text": "latest stable game project the purpose",
+    "start": 574.68,
+    "duration": 5.339
+  },
+  {
+    "text": "of Dev is to track your latest working",
+    "start": 576.6,
+    "duration": 5.22
+  },
+  {
+    "text": "game project plus all the brand new",
+    "start": 580.019,
+    "duration": 4.26
+  },
+  {
+    "text": "features you want to to add to upgrade",
+    "start": 581.82,
+    "duration": 3.84
+  },
+  {
+    "text": "your game project",
+    "start": 584.279,
+    "duration": 3.601
+  },
+  {
+    "text": "and then you create",
+    "start": 585.66,
+    "duration": 4.5
+  },
+  {
+    "text": "um whatever changes you want to make bug",
+    "start": 587.88,
+    "duration": 4.8
+  },
+  {
+    "text": "fixes uh assets",
+    "start": 590.16,
+    "duration": 8.04
+  },
+  {
+    "text": "new scripts you do all that on a test on",
+    "start": 592.68,
+    "duration": 7.2
+  },
+  {
+    "text": "a feature branch that is based off of",
+    "start": 598.2,
+    "duration": 5.1
+  },
+  {
+    "text": "Dev okay so that is just a quick crash",
+    "start": 599.88,
+    "duration": 6.66
+  },
+  {
+    "text": "course on how to safely Version Control",
+    "start": 603.3,
+    "duration": 6.479
+  },
+  {
+    "text": "with Git okay there's def there's um",
+    "start": 606.54,
+    "duration": 6.72
+  },
+  {
+    "text": "definitely a lot more uh things like",
+    "start": 609.779,
+    "duration": 6.12
+  },
+  {
+    "text": "you know that I can go into but that can",
+    "start": 613.26,
+    "duration": 5.699
+  },
+  {
+    "text": "be for later videos as um people request",
+    "start": 615.899,
+    "duration": 6.301
+  },
+  {
+    "text": "them but that's it so hope this helps",
+    "start": 618.959,
+    "duration": 5.101
+  },
+  {
+    "text": "you with your",
+    "start": 622.2,
+    "duration": 4.62
+  },
+  {
+    "text": "um gamed up Journey or your game jams",
+    "start": 624.06,
+    "duration": 6.92
+  },
+  {
+    "text": "and uh yeah I'll see you next time",
+    "start": 626.82,
+    "duration": 4.16
+  }
+]
