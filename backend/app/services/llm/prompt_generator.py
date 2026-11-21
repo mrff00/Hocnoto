@@ -1,5 +1,3 @@
-import json
-
 
 
 def generate_prompt(transcript: str) -> str:
