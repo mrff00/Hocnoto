@@ -36,7 +36,3 @@ def clean_transcript(segments: list[dict]) -> str:
 
     
     
-with open("tests/fixtures/tedTalk_Advice_Transcript.json", encoding="utf-8") as f:
-    segments = json.load(f)
-
-print(clean_transcript(segments))
