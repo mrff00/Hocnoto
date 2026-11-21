@@ -25,3 +25,6 @@ def generate_prompt(transcript: str) -> str:
     return prompt
 
 
+
+
+
