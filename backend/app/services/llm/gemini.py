@@ -21,7 +21,7 @@ class GeminiClient(LLMClient):
     def __init__(self, model: str = LLM_MODEL, max_attempts: int = 4):
         key = os.getenv("GEMINI_API_KEY")
         if not key:
-            raise LLMUnavailable("error: Key is missing")
+            raise LLMConfigError("GEMINI_API_KEY is missing. Needs to be added on environmental file.")
         self.client = genai.Client(api_key=key)
         self.model = model
         self.max_attempts = max_attempts
