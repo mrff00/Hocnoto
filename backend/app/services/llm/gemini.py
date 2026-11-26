@@ -55,5 +55,5 @@ class GeminiClient(LLMClient):
             
 
 
-print(generate_notes("What is going on with NVidia right now?"))
+
 
