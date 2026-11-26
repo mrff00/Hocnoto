@@ -7,10 +7,12 @@ from dotenv import load_dotenv
 from google.genai import errors, types
 
 
+
+
 class LLMUnavailable(Exception):
     """Raised when the LLM cannot produce an answer."""
 
-from app.services.llm.base import LLMClient, LLMConfigError, LLMUnavailable
+from base import LLMClient, LLMConfigError, LLMUnavailable
 
 load_dotenv()
 
@@ -25,7 +27,7 @@ class GeminiClient(LLMClient):
         self.client = genai.Client(api_key=key)
         self.model = model
         self.max_attempts = max_attempts
-    def generate(self, prompt: str) -> str:
+    def generate_notes(self, prompt: str) -> str:
         delay = 2
         for attempt in range(1, self.max_attempts + 1):
             try:
@@ -53,7 +55,6 @@ class GeminiClient(LLMClient):
         raise LLMUnavailable("The AI service did not answer.")       
                 
             
-
 
 
 
