@@ -12,7 +12,7 @@ from google.genai import errors, types
 class LLMUnavailable(Exception):
     """Raised when the LLM cannot produce an answer."""
 
-from base import LLMClient, LLMConfigError, LLMUnavailable
+from app.services.llm.base import LLMClient, LLMConfigError, LLMUnavailable
 
 load_dotenv()
 
