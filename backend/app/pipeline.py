@@ -1,7 +1,7 @@
 from app.services.youtube import parse_video_id
 from app.services.transcript import fetch_transcript
 from app.services.cleaning import clean_transcript
-from app.services.llm.prompt_generator import generate_prompt
+from app.services.prompt_generator import generate_prompt
 from app.services.llm.gemini import GeminiClient
 
 
